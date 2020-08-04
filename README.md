@@ -8,15 +8,19 @@ tinc vpn between a host and a guest. The "host" is the machine that is the
 
 ## On the host node
 
+```
 $ make install-tinc
 $ make copy-to-host
 $ make generate-keys
+```
 
 ## On the guest node
 
+```
 $ make install-tinc
-$ make copy-to-host
+$ make copy-to-guest
 $ make generate-keys
+```
 
 ## Exchange keys between the master and the slaves:
 
