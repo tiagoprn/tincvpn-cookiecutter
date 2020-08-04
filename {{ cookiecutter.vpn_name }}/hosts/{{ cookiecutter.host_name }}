@@ -1,0 +1,2 @@
+Address = {{ cookiecutter.host_public_ip }}
+Subnet = {{ cookiecutter.host_vpn_ip }}/32
