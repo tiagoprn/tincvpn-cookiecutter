@@ -3,5 +3,7 @@
     "vpn_tunnel_interface": "tun0",
     "host_name": "externalnyc",
     "host_public_ip": "",
-    "host_vpn_ip": "10.0.0.1"
+    "host_vpn_ip": "10.0.0.1",
+    "guest_host_name": "amc1",
+    "guest_vpn_ip": "10.0.0.2"
 }

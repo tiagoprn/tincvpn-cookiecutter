@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ifconfig {{ cookiecutter.vpn_tunnel_interface }}  {{ cookiecutter.client_vpn_ip }} netmask 255.255.255.0
+sudo ifconfig {{ cookiecutter.vpn_tunnel_interface }}  {{ cookiecutter.guest_vpn_ip }} netmask 255.255.255.0

@@ -1,1 +1,0 @@
-Subnet = {{ cookiecutter.client_vpn_ip }}/32
